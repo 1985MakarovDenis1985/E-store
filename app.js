@@ -362,7 +362,7 @@ function renderProducts(array_products) {
 
 //==================
 
-let z = document.getElementsByClassName("ttt");
+let z = document.getElementsByClassName("search_gender");
 let products_fil;
 let men = "men";
 let women = "women";
