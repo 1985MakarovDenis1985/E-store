@@ -1,7 +1,7 @@
 const products = [
     {
         "name": "Snikers #1",
-        "price": 103.50,
+        "price": 205.50,
         "data":1,
         "sex":"women",
         "data-check":1,
@@ -21,7 +21,7 @@ const products = [
     },
     {
         "name": "Snikers #3",
-        "price": 202.22,
+        "price": 103.22,
         "data":3,
         "sex":"women",
         "data-check":3,
@@ -179,6 +179,7 @@ const products = [
 
 //PAGINATION & SHOW ONLY 6 ITEMS
 
+
 let per_page = 6;
 let current = 0;
 
@@ -186,12 +187,13 @@ let pag_buttons = document.getElementsByClassName("page-link");
 let pagination = document.getElementById("pagination");
 let s = document.getElementById("s");
 let countText = document.getElementById("count");
+let prodArr = products;
+
 
 countText.innerHTML = "quantity in this store: " + products.length;
 
 
 // func - createPag
-
 function createPag(array_products) {
     let link, li, ul;
     let activeEl;
@@ -221,9 +223,7 @@ function createPag(array_products) {
 
 
 
-
 // CREATE POU PAP
-
 function CreatePouPap() {
     let buttonClass = document.getElementsByClassName("add_card");
 
@@ -292,7 +292,6 @@ function CreatePouPap() {
 
 
 
-
 // SEARCH
 
 const search_button = document.getElementById("search");
@@ -312,19 +311,17 @@ const search_button = document.getElementById("search");
 
     function search_touch() {
         let products_filter;
-
-        // console.log(s);
         const reg = new RegExp(s.value);
+
         products_filter = products.filter((el) => reg.test(el.name) || reg.test(el.description));
         current = 0;
         s.value = "";
         renderProducts(products_filter); // add
-        createPag(products_filter);// add
+        // createPag(products_filter);// add
 
         countText.innerHTML = "your choose compose from:   " + products_filter.length + "  items";
         // let y = document.getElementById("x");
         // console.log(y);
-
     };
 
 
@@ -352,6 +349,8 @@ function renderProducts(array_products) {
     for (var i = firstI(); secondI(i,array_products); i++) {
         catalog.appendChild(createCard(array_products[i]));
     };
+
+    //PAGINATION
     createPag(array_products);
 
     //POU-PAP
@@ -368,6 +367,7 @@ let men = "men";
 let women = "women";
 let child = "children"
 
+let buttonCoast = document.getElementById("4");
 
 let y = Array.from(z).map((el)=>{
   el.addEventListener("click", (e)=>{
@@ -382,9 +382,13 @@ let y = Array.from(z).map((el)=>{
 
 
       }else if(el.id == 3){
-          // filter_women(child)
-          renderProducts(products);
+          priceForNumber()
+          // renderProducts(products);
           countText.innerHTML = "quantity in this store: " + products.length;
+      }else if(el.id == 4){
+          priceToTop(prodArr)
+      }else if(el.id == 5){
+          priceToBottom(prodArr)
       }
   })
 })
@@ -398,10 +402,62 @@ function filter_sex(sex) {
 }
 
 
+function priceToTop(prodArr) {
+    // let prodArr = products;
+
+    for (let i=0; i < prodArr.length; i++){
+        // console.log(prodArr[i].price);
+        for (let j=0; j < i; j++){
+            if (prodArr[i].price < prodArr[j].price) {
+                temp = prodArr[i];
+                prodArr[i] = prodArr[j];
+                prodArr[j] = temp
+            }
+        }
+    }
+    renderProducts(prodArr);
+    countText.innerHTML = "quantity in this store: " + prodArr.length;
+}
+function priceToBottom(prodArr) {
+    // let prodArr = products;
+
+    for (let i=0; i < prodArr.length; i++){
+        // console.log(prodArr[i].price);
+        for (let j=0; j < i; j++){
+            if (prodArr[i].price > prodArr[j].price) {
+                temp = prodArr[i];
+                prodArr[i] = prodArr[j];
+                prodArr[j] = temp
+            }
+        }
+    }
+    renderProducts(prodArr);
+    countText.innerHTML = "quantity in this store: " + prodArr.length;
+}
+function priceForNumber() {
+    let prodArr = products;
+
+    for (let i=0; i < prodArr.length; i++){
+        // console.log(prodArr[i].data);
+        for (let j=0; j < i; j++){
+            if (prodArr[i].data < prodArr[j].data) {
+                temp = prodArr[i];
+                prodArr[i] = prodArr[j];
+                prodArr[j] = temp
+            }
+        }
+    }
+    renderProducts(prodArr);
+    countText.innerHTML = "quantity in this store: " + prodArr.length;
+    // console.log(prodArr);
+}
+////////////////////// Search ^
+
+
+
+
 
 //==================
-
-
 
 // CREATE NEW ELEMENT
 
@@ -459,8 +515,10 @@ function attachChilderToParent(html, array_el) {
 };
 
 
-renderProducts(products);
 
+
+renderProducts(products);
+// coast(prodArr)
 
 
 

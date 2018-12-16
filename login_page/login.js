@@ -63,6 +63,8 @@ const submitHandler = (e)=>{
     }
 };
 
+
+
 document.addEventListener("submit", submitHandler, false);
 
 //email
