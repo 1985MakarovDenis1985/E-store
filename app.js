@@ -2,176 +2,176 @@ const products = [
     {
         "name": "Snikers #1",
         "price": 205.50,
-        "data":1,
-        "sex":"women",
-        "data-check":1,
+        "data": 1,
+        "sex": "women",
+        "data-check": 1,
         "image": "bg-01.jpg",
         "description": "This is very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
     },
     {
         "name": "Snikers #2",
         "price": 152.14,
-        "data":2,
-        "sex":"men",
-        "data-check":2,
+        "data": 2,
+        "sex": "men",
+        "data-check": 2,
         "image": "bg-02.jpg",
         "description": "This is very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
     },
     {
         "name": "Snikers #3",
         "price": 103.22,
-        "data":3,
-        "sex":"women",
-        "data-check":3,
+        "data": 3,
+        "sex": "women",
+        "data-check": 3,
         "image": "bg-03.jpg",
         "description": "This is very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
     },
     {
         "name": "Snikers #4",
         "price": 240.00,
-        "data":4,
-        "sex":"women",
-        "data-check":4,
+        "data": 4,
+        "sex": "women",
+        "data-check": 4,
         "image": "bg-04.jpg",
         "description": "This is very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
     },
     {
         "name": "Snikers #5",
         "price": 180.30,
-        "data":5,
-        "sex":"women",
-        "data-check":5,
+        "data": 5,
+        "sex": "women",
+        "data-check": 5,
         "image": "bg-05.jpg",
         "description": "This is very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
 
     },
     {
         "name": "Snikers #6",
         "price": 186.50,
-        "data":6,
-        "sex":"children",
-        "data-check":6,
+        "data": 6,
+        "sex": "children",
+        "data-check": 6,
         "image": "bg-06.jpg",
         "description": "This is very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
 
     },
 
     {
         "name": "Snikers #7",
         "price": 111.60,
-        "data":7,
-        "sex":"men",
-        "data-check":7,
+        "data": 7,
+        "sex": "men",
+        "data-check": 7,
         "image": "bg-07.jpg",
         "description": "This is very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
 
     },
     {
         "name": "Snikers #8",
         "price": 169.64,
-        "data":8,
-        "sex":"women",
-        "data-check":8,
+        "data": 8,
+        "sex": "women",
+        "data-check": 8,
         "image": "bg-08.jpg",
         "description": "This is very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
 
     },
     {
         "name": "LeBron 16 #9",
         "price": 215.20,
-        "data":9,
-        "sex":"women",
-        "data-check":9,
+        "data": 9,
+        "sex": "women",
+        "data-check": 9,
         "image": "bg-09.jpg",
         "description": "This is very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
 
     },
     {
         "name": "Nike Zoom KD11 #10",
         "price": 245.00,
-        "data":10,
-        "sex":"men",
-        "data-check":10,
+        "data": 10,
+        "sex": "men",
+        "data-check": 10,
         "image": "bg-10.jpg",
         "description": "This is very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
 
     },
     {
         "name": "Snikers #11",
         "price": 109.30,
-        "data":11,
-        "sex":"children",
-        "data-check":11,
+        "data": 11,
+        "sex": "children",
+        "data-check": 11,
         "image": "bg-05.jpg",
         "description": "This is very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
 
     },
     {
         "name": "Snikers #12",
         "price": 198.50,
-        "data":12,
-        "sex":"women",
-        "data-check":12,
+        "data": 12,
+        "sex": "women",
+        "data-check": 12,
         "image": "bg-06.jpg",
         "description": "This is very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
 
     },
 
     {
         "name": "Snikers #13",
         "price": 128.69,
-        "data":13,
-        "sex":"women",
-        "data-check":13,
+        "data": 13,
+        "sex": "women",
+        "data-check": 13,
         "image": "bg-01.jpg",
         "description": "These are very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
 
     },
     {
         "name": "Snikers #14",
         "price": 179.00,
-        "data":14,
-        "sex":"men",
-        "data-check":14,
+        "data": 14,
+        "sex": "men",
+        "data-check": 14,
         "image": "bg-02.jpg",
         "description": "This is very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
 
     },
     {
         "name": "Snikers #15",
         "price": 260.20,
-        "data":15,
-        "sex":"children",
-        "data-check":15,
+        "data": 15,
+        "sex": "children",
+        "data-check": 15,
         "image": "bg-03.jpg",
         "description": "This is very cool snikers. Nice beautiful and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
 
     },
 
     {
         "name": "Snikers #16",
         "price": 301.20,
-        "data":16,
-        "sex":"men",
-        "data-check":16,
+        "data": 16,
+        "sex": "men",
+        "data-check": 16,
         "image": "bg-03.jpg",
         "description": "This is very cool snikers. Nice colorfull and quality",
-        "more_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
+        "more_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolor eaque magnam ut! Nam, temporibus vitae! Aspernatur dolores excepturi maiores neque numquam quasi voluptatibus."
 
     },
 ];
@@ -187,7 +187,9 @@ let pag_buttons = document.getElementsByClassName("page-link");
 let pagination = document.getElementById("pagination");
 let s = document.getElementById("s");
 let countText = document.getElementById("count");
+let numberGander = 0;
 let prodArr = products;
+
 
 
 countText.innerHTML = "quantity in this store: " + products.length;
@@ -207,7 +209,8 @@ function createPag(array_products) {
         activeEl = (i == current) ? "page-item active" : "page-item";
         li = attachChilderToParent(createNewElement("li", null, activeEl), [link]);
         ul.appendChild(li);
-    };
+    }
+    ;
 
     // pagination.innerHTML = "";
     pagination.appendChild(ul);
@@ -220,7 +223,6 @@ function createPag(array_products) {
         });
     });
 };
-
 
 
 // CREATE POU PAP
@@ -244,25 +246,34 @@ function CreatePouPap() {
     let mainBlockDescription = document.getElementById("main_box_ppu_pap");
     let buttonExitIconGet
 
-    Array.from(buttonClass).map((el)=>{
-        el.addEventListener("click", (e)=>{
-            for (let i = 0;i<products.length;i++){
-                if(el.name == products[i].data){
+    Array.from(buttonClass).map((el) => {
+        el.addEventListener("click", (e) => {
+            for (let i = 0; i < products.length; i++) {
+                if (el.name == products[i].data) {
                     console.log("kjhg");
 
                     name = createNewElement("h5", products[i].name, "nameSnickers");
                     button = createNewElement("button", "Add to cart", "buy btn btn-primary");
-                    coastP = createNewElement("h5", "Coast: "+products[i].price+" $", "coast", [{"name": "href", "value": "#"}]);
+                    coastP = createNewElement("h5", "Coast: " + products[i].price + " $", "coast", [{
+                        "name": "href",
+                        "value": "#"
+                    }]);
                     buyBox = attachChilderToParent(createNewElement("div", null, "buyBox col-xs-4 col-md-12 col-sm-12"), [button, coastP]);
 
                     boxDesc = createNewElement("div", products[i].more_description, "description col-xs-8 col-md-12 col-sm-12");
 
                     rowSecond = attachChilderToParent(createNewElement("div", null, "row"), [boxDesc, buyBox]);
 
-                    imgP = createNewElement("img", "", "img_snickers",[{"name": "src", "value": "images/"+products[i].image}]);
+                    imgP = createNewElement("img", "", "img_snickers", [{
+                        "name": "src",
+                        "value": "images/" + products[i].image
+                    }]);
 
                     buttonExitIcon = createNewElement("i", "", "fas fa-plus");
-                    buttonExit = attachChilderToParent(createNewElement("div", null, "exit",[{"name": "id", "value": "exitBox"}]), [buttonExitIcon]);
+                    buttonExit = attachChilderToParent(createNewElement("div", null, "exit", [{
+                        "name": "id",
+                        "value": "exitBox"
+                    }]), [buttonExitIcon]);
 
                     colLeft = createNewElement("div", "", "col-xs-3 col-md-3 col-sm-3");
 
@@ -278,41 +289,50 @@ function CreatePouPap() {
                     mainBlockDescription.appendChild(blockDescription)
 
 
-
                     buttonExitIconGet = document.getElementById("exitBox");
-                    buttonExitIconGet.addEventListener("click", (e)=>{
-                        mainBlockDescription.innerHTML="";
+                    buttonExitIconGet.addEventListener("click", (e) => {
+                        mainBlockDescription.innerHTML = "";
                         console.log("close");
                     });
-                };
-            };
+                }
+                ;
+            }
+            ;
         });
     });
 }
-
 
 
 // SEARCH
 
 const search_button = document.getElementById("search");
 
-    search_button.addEventListener("click",(e)=>{
-        // console.log("khjghj");
-        search_touch()
-    });
+search_button.addEventListener("click", (e) => {
+    // console.log("khjghj");
+    search_touch()
+});
 
-    s.addEventListener("keypress", (e)=>{
-        if (e.keyCode == 13){
-            // console.log("jakjc");
-            search_touch();
-        };
-    });
+s.addEventListener("keypress", (e) => {
+    if (e.keyCode == 13) {
+        // console.log("jakjc");
+        search_touch();
+    }
+    ;
+});
 
 
-    function search_touch() {
-        let products_filter;
-        const reg = new RegExp(s.value);
+function search_touch() {
+    let products_filter;
+    const reg = new RegExp(s.value);
+    current = 0;
+    s.value = "";
 
+    if (numberGander == 1 || numberGander == 2) {
+        console.log("men");
+        products_filter = products_fil.filter((el) => reg.test(el.name) || reg.test(el.description));
+        renderProducts(products_filter); // add
+        countText.innerHTML = "your choose compose from:   " + products_filter.length + "  items";
+    }else {
         products_filter = products.filter((el) => reg.test(el.name) || reg.test(el.description));
         current = 0;
         s.value = "";
@@ -322,22 +342,19 @@ const search_button = document.getElementById("search");
         countText.innerHTML = "your choose compose from:   " + products_filter.length + "  items";
         // let y = document.getElementById("x");
         // console.log(y);
-    };
+    }
 
 
-
-
+};
 
 
 function firstI() {
     return current * per_page;
 };
 
-function secondI(i,array_products) {
+function secondI(i, array_products) {
     return i < current * per_page + per_page && i < array_products.length;
 };
-
-
 
 
 //RENDER PRODUCTS
@@ -346,9 +363,10 @@ var catalog = document.getElementById("catalog");
 
 function renderProducts(array_products) {
     catalog.innerHTML = "";
-    for (var i = firstI(); secondI(i,array_products); i++) {
+    for (var i = firstI(); secondI(i, array_products); i++) {
         catalog.appendChild(createCard(array_products[i]));
-    };
+    }
+    ;
 
     //PAGINATION
     createPag(array_products);
@@ -362,40 +380,46 @@ function renderProducts(array_products) {
 //==================
 
 let z = document.getElementsByClassName("search_gender");
-let products_fil;
+let products_fil = products;
 let men = "men";
 let women = "women";
 let child = "children"
 
 let buttonCoast = document.getElementById("4");
 
-let y = Array.from(z).map((el)=>{
-  el.addEventListener("click", (e)=>{
-      if(el.id == 1){
-        console.log("click");
-        filter_sex(men);
+let y = Array.from(z).map((el) => {
+    el.addEventListener("click", (e) => {
+        if (el.id == 1) {
+            console.log("click");
+            filter_sex(men);
+            numberGander = 1;
+            console.log(numberGander);
+
+        } else if (el.id == 2) {
+            filter_sex(women);
+            numberGander = 2;
+            console.log(numberGander);
+            // createPag(products_fil);// add
 
 
-      }else if(el.id == 2){
-          filter_sex(women);
-          // createPag(products_fil);// add
-
-
-      }else if(el.id == 3){
-          priceForNumber()
-          // renderProducts(products);
-          countText.innerHTML = "quantity in this store: " + products.length;
-      }else if(el.id == 4){
-          priceToTop(prodArr)
-      }else if(el.id == 5){
-          priceToBottom(prodArr)
-      }
-  })
+        } else if (el.id == 3) {
+            priceForNumber()
+            numberGander = 3;
+            console.log(numberGander);
+            countText.innerHTML = "quantity in this store: " + products.length;
+        }
+        else if (el.id == 4) {
+            priceToTop(products_fil)
+        } else if (el.id == 5) {
+            priceToBottom(products_fil)
+        }
+    })
 })
 
 
 function filter_sex(sex) {
-    products_fil = products.filter((el)=>el.sex == sex);
+    current = 0;
+    products_fil = products.filter((el) => el.sex == sex);
     renderProducts(products_fil); // add
     createPag(products_fil);// add
     countText.innerHTML = "your choose compose from:   " + products_fil.length + "  items";
@@ -404,10 +428,11 @@ function filter_sex(sex) {
 
 function priceToTop(prodArr) {
     // let prodArr = products;
+    current = 0;
 
-    for (let i=0; i < prodArr.length; i++){
+    for (let i = 0; i < prodArr.length; i++) {
         // console.log(prodArr[i].price);
-        for (let j=0; j < i; j++){
+        for (let j = 0; j < i; j++) {
             if (prodArr[i].price < prodArr[j].price) {
                 temp = prodArr[i];
                 prodArr[i] = prodArr[j];
@@ -418,12 +443,14 @@ function priceToTop(prodArr) {
     renderProducts(prodArr);
     countText.innerHTML = "quantity in this store: " + prodArr.length;
 }
+
 function priceToBottom(prodArr) {
     // let prodArr = products;
+    current = 0;
 
-    for (let i=0; i < prodArr.length; i++){
+    for (let i = 0; i < prodArr.length; i++) {
         // console.log(prodArr[i].price);
-        for (let j=0; j < i; j++){
+        for (let j = 0; j < i; j++) {
             if (prodArr[i].price > prodArr[j].price) {
                 temp = prodArr[i];
                 prodArr[i] = prodArr[j];
@@ -434,12 +461,14 @@ function priceToBottom(prodArr) {
     renderProducts(prodArr);
     countText.innerHTML = "quantity in this store: " + prodArr.length;
 }
-function priceForNumber() {
-    let prodArr = products;
 
-    for (let i=0; i < prodArr.length; i++){
+function priceForNumber(prodArr) {
+    prodArr = products;
+    current = 0;
+
+    for (let i = 0; i < prodArr.length; i++) {
         // console.log(prodArr[i].data);
-        for (let j=0; j < i; j++){
+        for (let j = 0; j < i; j++) {
             if (prodArr[i].data < prodArr[j].data) {
                 temp = prodArr[i];
                 prodArr[i] = prodArr[j];
@@ -451,10 +480,8 @@ function priceForNumber() {
     countText.innerHTML = "quantity in this store: " + prodArr.length;
     // console.log(prodArr);
 }
+
 ////////////////////// Search ^
-
-
-
 
 
 //==================
@@ -474,14 +501,12 @@ function createNewElement(tag, innerContent = null, classStr = null, attr = null
 }
 
 
-
-
 //CREATE CARD
 
 function createCard(product) {
 
     var link = createNewElement("a", "Add to cart", "btn btn-primary add_card", [{"name": "href", "value": "#"}]);
-    link.setAttribute("name",product.data);
+    link.setAttribute("name", product.data);
 
 
     var p = createNewElement("p", product.description, "card-text");
@@ -513,8 +538,6 @@ function attachChilderToParent(html, array_el) {
     array_el.map((el) => html.appendChild(el));
     return html;
 };
-
-
 
 
 renderProducts(products);
